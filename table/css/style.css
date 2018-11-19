@@ -1,0 +1,29 @@
+
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+
+.rowtable {
+  display: table-rowtable;
+  background: #f6f6f6;
+}
+.rowtable:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.rowtable.header {
+  
+  color: #ffffff;
+  background: #f68b1e;
+}
+.rowtable.green {
+  background: #27ae60;
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}

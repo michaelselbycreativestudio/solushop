@@ -1,0 +1,1021 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>About-Javenist</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	
+	<!-- Ionicons Font CSS-->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+	<!-- font awesome CSS-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Animate CSS-->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- UI CSS-->
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<!-- Chosen CSS-->
+	<link rel="stylesheet" href="css/chosen.css">
+	<!-- Meanmenu CSS-->
+	<link rel="stylesheet" href="css/meanmenu.min.css">
+	<!-- Fancybox CSS-->
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- Normalize CSS-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Nivo Slider CSS-->
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<!-- Owl Carousel CSS-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!-- EasyZoom CSS-->
+	<link rel="stylesheet" href="css/easyzoom.css">
+	<!-- Slick CSS-->
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Default CSS -->
+	<link rel="stylesheet" href="css/default.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Modernizr Js -->
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+	<!--[if lt IE 8]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	<div class="wrapper">
+		<!--Header Area Start-->
+		<header>
+		   <div class="header-container">
+		       <!--Header Top Area Start--> 
+               <div class="header-top-area">
+                   <div class="container">
+                       <div class="row">
+                           <!--Header Top Left Area Start-->
+                           <div class="col-md-4 col-sm-4 col-xs-12">
+                               <div class="header-top-menu">
+                                   <ul>
+                                       <li><span>Language:</span><a href="#">English <i class="fa fa-angle-down"></i></a>
+                                           <ul class="ht-dropdown">
+                                               <li><a href="#">Deutsch</a></li>
+                                               <li><a href="#">Français</a></li>
+                                               <li><a href="#">Português</a></li>
+                                           </ul>
+                                       </li>
+                                       <li><span>Currency:</span><a href="#" class="text-uppercase">Usd<i class="fa fa-angle-down"></i></a>
+                                           <ul class="ht-dropdown">
+                                               <li><a href="#">EUR</a></li>
+                                               <li><a href="#">BRL</a></li>
+                                           </ul>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <!--Header Top Left Area End-->
+                           <!--Header Top Right Area Start-->
+                           <div class="col-md-8 col-sm-8 hidden-xs text-right">
+                               <div class="header-top-menu">
+                                   <ul>
+                                       <li class="support"><span>Ordered before 17:30, shipped today  - Support: (012) 800 456 789</span></li>
+                                       <li class="account"><a href="#">My Account <i class="fa fa-angle-down"></i></a>
+                                           <ul class="ht-dropdown">
+                                               <li><a href="checkout.html">Checkout</a></li>
+                                               <li><a href="my-account.html">My Account</a></li>
+                                               <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                                               <li><a href="wishlist.html">Wishlist</a></li>
+                                           </ul>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <!--Header Top Right Area End-->
+                       </div>
+                   </div>
+               </div>
+               <!--Header Top Area End-->
+               <!--Header Middel Area Start-->
+               <div class="header-middel-area">
+                   <div class="container">
+                       <div class="row">
+                           <!--Logo Start-->
+                           <div class="col-md-3 col-sm-3 col-xs-12">
+                               <div class="logo">
+                                   <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                               </div>
+                           </div>
+                           <!--Logo End-->
+                           <!--Search Box Start-->
+                           <div class="col-md-6 col-sm-5 col-xs-12">
+                               <div class="search-box-area">
+                                   <form action="#">
+                                       <div class="select-area">
+                                        <select data-placeholder="Choose a Country..." class="select" tabindex="1">
+                                            <option value="">All Categories</option>
+                                            <optgroup label="NFC EAST">
+                                              <option>Dallas Cowboys</option>
+                                              <option>New York Giants</option>
+                                              <option>Philadelphia Eagles</option>
+                                              <option>Washington Redskins</option>
+                                            </optgroup>
+                                            <optgroup label="NFC NORTH">
+                                              <option>Chicago Bears</option>
+                                              <option>Detroit Lions</option>
+                                              <option>Green Bay Packers</option>
+                                              <option>Minnesota Vikings</option>
+                                            </optgroup>
+                                            <optgroup label="NFC SOUTH">
+                                              <option>Atlanta Falcons</option>
+                                              <option>Carolina Panthers</option>
+                                              <option>New Orleans Saints</option>
+                                              <option>Tampa Bay Buccaneers</option>
+                                            </optgroup>
+                                            <optgroup label="NFC WEST">
+                                              <option>Arizona Cardinals</option>
+                                              <option>St. Louis Rams</option>
+                                              <option>San Francisco 49ers</option>
+                                              <option>Seattle Seahawks</option>
+                                            </optgroup>
+                                            <optgroup label="AFC EAST">
+                                              <option>Buffalo Bills</option>
+                                              <option>Miami Dolphins</option>
+                                              <option>New England Patriots</option>
+                                              <option>New York Jets</option>
+                                            </optgroup>
+                                            <optgroup label="AFC NORTH">
+                                              <option>Baltimore Ravens</option>
+                                              <option>Cincinnati Bengals</option>
+                                              <option>Cleveland Browns</option>
+                                              <option>Pittsburgh Steelers</option>
+                                            </optgroup>
+                                            <optgroup label="AFC SOUTH">
+                                              <option>Houston Texans</option>
+                                              <option>Indianapolis Colts</option>
+                                              <option>Jacksonville Jaguars</option>
+                                              <option>Tennessee Titans</option>
+                                            </optgroup>
+                                            <optgroup label="AFC WEST">
+                                              <option>Denver Broncos</option>
+                                              <option>Kansas City Chiefs</option>
+                                              <option>Oakland Raiders</option>
+                                              <option>San Diego Chargers</option>
+                                            </optgroup>
+                                       </select>
+                                   </div>
+                                       <div class="search-box">
+                                           <input type="text" name="search" id="search" placeholder="" value='Search product...' onblur="if(this.value==''){this.value='Search product...'}" onfocus="if(this.value=='Search product...'){this.value=''}">
+                                           <button type="submit"><i class="ion-ios-search-strong"></i></button>
+                                       </div>
+                                   </form> 
+                               </div>
+                           </div>
+                           <!--Search Box End-->
+                           <!--Mini Cart Start-->
+                           <div class="col-md-3 col-sm-4 col-xs-12">
+                               <div class="mini-cart-area">
+                                   <ul>
+                                       <li><a href="#"><i class="ion-android-star"></i></a></li>
+                                       <li><a href="#"><i class="ion-android-cart"></i><span class="cart-add">2</span><span class="cart-total">$215.00 <i class="fa fa-angle-down"></i></span></a>
+                                           <ul class="cart-dropdown">
+                                               <!--Single Cart Item Start-->
+                                               <li class="cart-item">
+                                                   <div class="cart-img">
+                                                       <a href="shopping-cart.html"><img src="img/cart/1.jpg" alt=""></a>
+                                                   </div>
+                                                   <div class="cart-content">
+                                                       <h4><a href="shopping-cart.html">natural typesetting</a></h4>
+                                                       <p class="cart-quantity">Qty:1</p>
+                                                       <p class="cart-price">$160.00</p>
+                                                   </div>
+                                                   <div class="cart-close">
+                                                       <a href="#" title="Remove"><i class="ion-android-close"></i></a>
+                                                   </div>
+                                               </li>
+                                               <!--Single Cart Item Start-->
+                                               <!--Single Cart Item Start-->
+                                               <li class="cart-item">
+                                                   <div class="cart-img">
+                                                       <a href="shopping-cart.html"><img src="img/cart/2.jpg" alt=""></a>
+                                                   </div>
+                                                   <div class="cart-content">
+                                                       <h4><a href="shopping-cart.html">Natural simply random</a></h4>
+                                                       <p class="cart-quantity">Qty:2</p>
+                                                       <p class="cart-price">$180.00</p>
+                                                   </div>
+                                                   <div class="cart-close">
+                                                       <a href="shopping-cart.html" title="Remove"><i class="ion-android-close"></i></a>
+                                                   </div>
+                                               </li>
+                                               <!--Single Cart Item Start-->
+                                               <!--Cart Total Start-->
+                                               <li class="cart-total-amount mtb-20">
+                                                   <h4>SubTotal : <span class="pull-right">$215.00</span></h4>
+                                               </li>
+                                               <!--Cart Total End-->
+                                               <!--Cart Button Start-->
+                                               <li class="cart-button">
+                                                   <a href="shopping-cart.html" class="button2">View cart</a>
+                                                   <a href="checkout.html" class="button2">Check out</a>
+                                               </li>
+                                               <!--Cart Button End-->
+                                           </ul>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                           <!--Mini Cart End-->
+                       </div>
+                   </div>
+               </div>
+               <!--Header Middel Area End-->
+               <!--Header bottom Area Start-->
+               <div class="header-bottom-area header-sticky">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-12">
+                               <!--Logo Sticky Start-->
+                               <div class="logo-sticky">
+                                 <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                               </div>
+                               <!--Logo Sticky End-->
+                               <!--Main Menu Area Start-->
+                               <div class="main-menu-area">
+                                   <nav>
+                                       <ul class="main-menu">
+                                           <li class="active"><a href="index.html">Home</a>
+                                               <!--Dropdown Menu Start-->
+                                               <ul class="dropdown">
+                                                   <li><a href="index.html">Home Shop 1</a></li>
+                                                   <li><a href="index-2.html">Home Shop 2</a></li>
+                                                   <li><a href="index-3.html">Home Shop 3</a></li>
+                                                   <li><a href="index-4.html">Home Shop 4</a></li>
+                                                   <li><a href="index-5.html">Home Shop 5</a></li>
+                                                   <li><a href="index-6.html">Home Shop 6</a></li>
+                                                   <li><a href="index-7.html">Home Shop 7</a></li>
+                                               </ul>
+                                               <!--Dropdown Menu End-->
+                                           </li>
+                                           <li class="new"><a href="#">Features</a>
+                                               <!--Mega Menu Start-->
+                                               <ul class="mega-menu">
+                                                   <li>
+                                                       <ul>
+                                                           <li class="mega-title"><a href="#">pages</a></li>
+                                                           <li><a href="about.html">About Us</a></li>
+                                                           <li><a href="services.html">Services</a></li>
+                                                           <li><a href="frequently-questions.html">Frequently Questions</a></li>
+                                                           <li><a href="404.html">Error 404</a></li>
+                                                           <li><a href="portfolio.html">Portfolio</a></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li>
+                                                       <ul>
+                                                           <li class="mega-title"><a href="#">blog</a></li>
+                                                           <li><a href="blog-nosidebar.html">None Sidebar</a></li>
+                                                           <li><a href="blog-left-sidebar.html">Sidebar Left</a></li>
+                                                           <li><a href="blog-post-gallery.html">Gallery Format</a></li>
+                                                           <li><a href="blog-post-audio.html">Audio Format</a></li>
+                                                           <li><a href="blog-post-video.html">Video Format</a></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li>
+                                                       <ul>
+                                                           <li class="mega-title"><a href="#">shop</a></li>
+                                                           <li><a href="shop-full-width.html">Full Width</a></li>
+                                                           <li><a href="shop-right-sidebar.html">Sidebar Right</a></li>
+                                                           <li><a href="shop-list-view.html">List View</a></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li class="menu-img">
+                                                       <ul>
+                                                           <li><a href="#"><img src="img/menu/1.jpg" alt=""></a></li>
+                                                       </ul>
+                                                   </li>
+                                               </ul>
+                                               <!--Mega Menu End-->
+                                           </li>
+                                           <li class="hot"><a href="shop.html">Shop</a></li>
+                                           <li><a href="blog.html">Blog</a></li>
+                                           <li><a href="contact.html">Contact Us</a></li>
+                                           <li><a href="wishlist.html">My Wishlist</a></li>
+                                           <li><a href="#">Pages</a>
+                                               <ul class="dropdown">
+                                                   <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                                                   <li><a href="wishlist.html">Wishlist</a></li>
+                                                   <li><a href="checkout.html">Checkout</a></li>
+                                                   <li><a href="my-account.html">My Account</a></li>
+                                                   <li><a href="single-product.html">Product Details</a></li>
+                                                   <li><a href="shop.html">Shop</a></li>
+                                                   <li><a href="shop-full-width.html">Shop Full Width</a></li>
+                                                   <li><a href="shop-list-view.html">Shop List View</a></li>
+                                                   <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                                   <li><a href="blog-post-img.html">Blog Image Post</a></li>
+                                                   <li><a href="blog-post-video.html">Blog Video Post</a></li>
+                                                   <li><a href="blog-nosidebar.html">Blog no Sidebar</a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                   </nav>
+                               </div>
+                               <!--Main Menu Area End-->
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <!--Header bottom Area End-->
+               <!--Mobile Menu Area Start-->
+               <div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-xs-12">
+                               <div class="mobile-menu">
+                                   <nav>
+                                       <ul>
+                                           <li><a href="index.html">home</a>
+                                               <ul>
+                                                   <li><a href="index.html">Home Shop 1</a></li>
+                                                   <li><a href="index-2.html">Home Shop 2</a></li>
+                                                   <li><a href="index-3.html">Home Shop 3</a></li>
+                                                   <li><a href="index-4.html">Home Shop 4</a></li>
+                                                   <li><a href="index-5.html">Home Shop 5</a></li>
+                                                   <li><a href="index-6.html">Home Shop 6</a></li>
+                                                   <li><a href="index-7.html">Home Shop 7</a></li>
+                                               </ul>
+                                           </li>
+                                           <li><a href="#">Features</a>
+                                               <ul>
+                                                   <li><a href="#">pages</a>
+                                                       <ul>
+                                                          <li><a href="about.html">About Us</a></li>
+                                                          <li><a href="services.html">Services</a></li>
+                                                          <li><a href="frequently-questions.html">Frequently Questions</a></li>
+                                                          <li><a href="404.html">Error 404</a></li>
+                                                          <li><a href="portfolio.html">Portfolio</a></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li><a href="#">blog</a>
+                                                       <ul>
+                                                          <li><a href="blog-nosidebar.html">None Sidebar</a></li>
+                                                          <li><a href="blog-left-sidebar.html">Sidebar Left</a></li>
+                                                          <li><a href="blog-post-gallery.html">Gallery Format</a></li>
+                                                          <li><a href="blog-post-audio.html">Audio Format</a></li>
+                                                          <li><a href="blog-post-video.html">Video Format</a></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li><a href="#">shop</a>
+                                                       <ul>
+                                                          <li><a href="shop-full-width.html">Full Width</a></li>
+                                                          <li><a href="shop-right-sidebar.html">Sidebar Right</a></li>
+                                                          <li><a href="shop-list-view.html">List View</a></li>
+                                                       </ul>
+                                                   </li>
+                                               </ul>
+                                           </li>
+                                           <li><a href="shop.html">Shop</a></li>
+                                           <li><a href="blog.html">Blog</a></li>
+                                           <li><a href="contact.html">Contact Us</a></li>
+                                           <li><a href="wishlist.html">My Wishlist</a></li>
+                                           <li><a href="#">Pages</a>
+                                               <ul>
+                                                   <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                                                   <li><a href="wishlist.html">Wishlist</a></li>
+                                                   <li><a href="checkout.html">Checkout</a></li>
+                                                   <li><a href="my-account.html">My Account</a></li>
+                                                   <li><a href="single-product.html">Product Details</a></li>
+                                                   <li><a href="shop.html">Shop</a></li>
+                                                   <li><a href="shop-full-width.html">Shop Full Width</a></li>
+                                                   <li><a href="shop-list-view.html">Shop List View</a></li>
+                                                   <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                                   <li><a href="blog-post-img.html">Blog Image Post</a></li>
+                                                   <li><a href="blog-post-video.html">Blog Video Post</a></li>
+                                                   <li><a href="blog-nosidebar.html">Blog no Sidebar</a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                   </nav>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+               <!--Mobile Menu Area End-->
+               </div> 
+		</header>
+		<!--Header Area End-->
+		<!--Heading Banner Area Start-->
+		<section class="heading-banner-area pt-30">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <div class="heading-banner">
+		                    <div class="breadcrumbs">
+		                        <ul>
+		                            <li><a href="index.html">Home</a><span class="breadcome-separator">></span></li>
+		                            <li>About Us</li>
+		                        </ul>
+		                    </div>
+		                    <div class="heading-banner-title">
+		                        <h1>About Us</h1>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		<!--Heading Banner Area End-->
+		<!--Aboout Us Area Start-->
+		<section class="about-us-area">
+            <!--About Us Image Start-->
+            <div class="about-us-img bg-4"></div>
+            <!--About Us Image End-->
+		    <div class="container-fluid">
+		        <div class="row">
+		            <!--About Us Content Start-->
+                    <div class="about-us-content">
+                        <div class="about-us-title text-center">
+                            <h2><strong>WE CREATE</strong> <br><strong>WORDPRESS THEMES</strong></h2>
+                        </div>
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum claritatem.</p>
+                        <div class="about-us-btn text-center">
+                            <a href="#" class="button2">view work </a>
+                        </div>
+                    </div>
+		            <!--About Us Content End-->
+		        </div>
+		    </div>
+		</section>
+		<!--Aboout Us Area End-->
+		<!--Counter Up Area Start-->
+		<section class="counter-up-area">
+		    <div class="container-fluid">
+		        <div class="row">
+		            <!--Single Count Box Start-->
+		            <div class="col-3">
+		                <div class="single-count-box">
+		                    <div class="counter-img">
+		                        <img src="img/icon/6.png" alt="">
+		                    </div>
+		                    <div class="counter-content">
+		                        <div class="counter-number">
+		                            <h2><span class="counter">1234</span></h2>
+		                        </div>
+		                        <div class="counter-title">
+		                            <h5>happy customers</h5>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <!--Single Count Box End-->
+		            <!--Single Count Box Start-->
+		            <div class="col-3">
+		                <div class="single-count-box">
+		                    <div class="counter-img">
+		                        <img src="img/icon/7.png" alt="">
+		                    </div>
+		                    <div class="counter-content">
+		                        <div class="counter-number">
+		                            <h2><span class="counter">2345</span></h2>
+		                        </div>
+		                        <div class="counter-title">
+		                            <h5>awards winned</h5>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <!--Single Count Box End-->
+		            <!--Single Count Box Start-->
+		            <div class="col-3">
+		                <div class="single-count-box">
+		                    <div class="counter-img">
+		                        <img src="img/icon/8.png" alt="">
+		                    </div>
+		                    <div class="counter-content">
+		                        <div class="counter-number">
+		                            <h2><span class="counter">1234</span></h2>
+		                        </div>
+		                        <div class="counter-title">
+		                            <h5>time work</h5>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <!--Single Count Box End-->
+		            <!--Single Count Box Start-->
+		            <div class="col-3">
+		                <div class="single-count-box">
+		                    <div class="counter-img">
+		                        <img src="img/icon/9.png" alt="">
+		                    </div>
+		                    <div class="counter-content">
+		                        <div class="counter-number">
+		                            <h2><span class="counter">366</span></h2>
+		                        </div>
+		                        <div class="counter-title">
+		                            <h5>complete projects</h5>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <!--Single Count Box End-->
+		        </div>
+		    </div>
+		</section>
+		<!--Counter Up Area End-->
+		<!--About Progress Area Start-->
+		<section class="about-progress-area">
+            <!--About Us Img Start-->
+            <div class="about-us-img2 bg-5"></div>
+            <!--About Us Img End-->
+		    <div class="container-fluid">
+		        <div class="row">
+		            <!--Progressbar Start-->
+                    <div class="all-progressbar">
+                        <div class="progress-title">
+                            <h2>WE HAVE THE SKILLS TO SHOW</h2>
+                        </div>
+                        <div class="skill-content">
+                            <div class="skill">
+                                <div class="progress">
+                                    <div class="lead"><span class="progress-name">Html/Css</span> <span class="progress-count">70%</span></div>
+                                    <div data-wow-delay="1.2s" data-wow-duration="1.5s" style="width: 70%; visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInLeft;" data-progress="70%" class="progress-bar wow fadeInLeft animated"></div>
+                                </div>
+                                <div class="progress">
+                                    <div class="lead"><span class="progress-name">Wordpress theme </span> <span class="progress-count">90%</span></div>
+                                    <div data-wow-delay="1.2s" data-wow-duration="1.5s" style="width: 90%; visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInLeft;" data-progress="90%" class="progress-bar wow fadeInLeft animated"></div>
+                                </div>
+                                <div class="progress">
+                                    <div class="lead"><span class="progress-name">Typhography </span> <span class="progress-count">80%</span></div>
+                                    <div data-wow-delay="1.2s" data-wow-duration="1.5s" style="width: 80%; visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInLeft;" data-progress="80%" class="progress-bar wow fadeInLeft animated"></div>
+                                </div>
+                                <div class="progress">
+                                    <div class="lead"><span class="progress-name">Brading </span> <span class="progress-count">96%</span></div>
+                                    <div data-wow-delay="1.2s" data-wow-duration="1.5s" style="width: 96%; visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInLeft;" data-progress="96%" class="progress-bar wow fadeInLeft animated"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+		            <!--Progressbar End-->
+		        </div>
+		    </div>
+		</section>
+		<!--About Progress Area End-->
+		<!--Brand Area Start-->
+		<div class="brand-area ptb-30 white-bg">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <div class="brand-active owl-carousel">
+		                    <!--Single Brand Start-->
+		                    <div class="single-brand img-full">
+		                        <a href="#"><img src="img/brand/1.png" alt=""></a>
+		                    </div>
+		                    <!--Single Brand End-->
+		                    <!--Single Brand Start-->
+		                    <div class="single-brand img-full">
+		                        <a href="#"><img src="img/brand/2.png" alt=""></a>
+		                    </div>
+		                    <!--Single Brand End-->
+		                    <!--Single Brand Start-->
+		                    <div class="single-brand img-full">
+		                        <a href="#"><img src="img/brand/3.png" alt=""></a>
+		                    </div>
+		                    <!--Single Brand End-->
+		                    <!--Single Brand Start-->
+		                    <div class="single-brand img-full">
+		                        <a href="#"><img src="img/brand/4.png" alt=""></a>
+		                    </div>
+		                    <!--Single Brand End-->
+		                    <!--Single Brand Start-->
+		                    <div class="single-brand img-full">
+		                        <a href="#"><img src="img/brand/5.png" alt=""></a>
+		                    </div>
+		                    <!--Single Brand End-->
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!--Brand Area End-->
+		<!--Footer Area Start-->
+		<footer>
+		    <div class="footer-container white-bg">
+		        <!--Footer Top Area Start-->
+                <div class="footer-top-area ptb-50">
+                    <div class="container">
+                        <div class="row">
+                            <!--Single Footer Start-->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-footer">
+                                    <!--Footer Logo Start-->
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="img/logo/logo2.png" alt=""></a>
+                                    </div>
+                                    <!--Footer Logo End-->
+                                    <!--Footer Content Start-->
+                                    <div class="footer-content">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majorited have suffered alteration.</p>
+                                        <div class="contact">
+                                            <p><label>Address:</label>123 Main Street, Anytown, CA 12345 - USA.</p>
+                                            <p><label>Phone:</label><a href="tel:+800123456789"></a>(+800) 123 456 789)</p>
+                                            <p><label>Email:</label><a href="mailto:Support@demo.com">Support@demo.com</a></p>
+                                        </div>
+                                    </div>
+                                    <!--Footer Content End-->
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
+                            <div class="col-md-2 col-sm-6">
+                                <div class="single-footer mt-30">
+                                    <div class="footer-title">
+                                        <h3>information</h3>
+                                    </div>
+                                    <ul class="footer-info">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Wishlist</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Shop</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
+                            <div class="col-md-2 col-sm-6">
+                                <div class="single-footer mt-30">
+                                    <div class="footer-title">
+                                        <h3>My Account</h3>
+                                    </div>
+                                    <ul class="footer-info">
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Shopping cart</a></li>
+                                        <li><a href="#">Checkout</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Frequently Questions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                            <!--Single Footer Start-->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-footer mt-30">
+                                    <div class="footer-title">
+                                        <h3>follow us</h3>
+                                    </div>
+                                    <ul class="socil-icon mb-40">
+                                        <li><a href="#" data-toggle="tooltip" title="Twitter"><i class="ion-social-twitter"></i></a></li>
+                                        <li><a href="#" data-toggle="tooltip" title="Facebook"><i class="ion-social-facebook"></i></a></li>
+                                        <li><a href="#" data-toggle="tooltip" title="Google Plus"><i class="ion-social-googleplus"></i></a></li>
+                                        <li><a href="#" data-toggle="tooltip" title="Youtube"><i class="ion-social-youtube"></i></a></li>
+                                        <li><a href="#" data-toggle="tooltip" title="Pinterest"><i class="ion-social-pinterest"></i></a></li>
+                                        <li><a href="#" data-toggle="tooltip" title="Rss"><i class="ion-social-rss"></i></a></li>
+                                    </ul>
+                                    <div class="footer-title">
+                                        <h3>Download Apps</h3>
+                                    </div>
+                                    <div class="footer-content">
+                                        <a href="#"><img src="img/apps/1.jpg" alt=""></a>
+                                        <a href="#"><img src="img/apps/2.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                    </div>
+                </div>
+                <!--Footer Top Area End-->
+                <!--Footer Middel Area Start-->
+                <div class="footer-middel-area">
+                    <div class="container">
+                        <!--News Latter Area Start-->
+                        <div class="news-latter-area">
+                            <div class="row">
+                                <!--News Latter Content Start-->
+                                <div class="col-md-6 text-center">
+                                    <div class="news-lettar-content">
+                                        <div class="icon">
+                                            <img src="img/icon/5.png" alt="">
+                                        </div>
+                                        <p><label>Sign Up For Newsletters</label><br>Get E-mail updates about our latest shop and special offers.</p>
+                                    </div>
+                                </div>
+                                <!--News Latter Content Start-->
+                                <!--News Latter Subscribe Box Start-->
+                                <div class="col-md-6">
+                                    <!-- Newsletter Form -->
+                                    <div class="news-latter-subscribe-box text-right">
+                                        <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="popup-subscribe-form validate" target="_blank" novalidate>
+                                           <div id="mc_embed_signup_scroll">
+                                                <label class="d-none hidden">Subscribe to our mailing list</label>
+                                                <input class="style2" type="email" name="email" placeholder="Enter your email" required="">
+                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""></div>
+                                                <button type="submit" name="subscribe" id="mc-embedded-subscribe"><i class="ion-ios-paperplane"></i></button> 
+                                           </div> 
+                                        </form>
+                                    </div>
+                                    <!-- Newsletter Form -->
+                                </div>
+                                <!--News Latter Subscribe Box End-->
+                            </div>
+                        </div>
+                        <!--News Latter Area End-->
+                        <!--Wdget Area Start-->
+                        <div class="wdget-area ptb-40">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!--Wdget Menu Start-->
+                                    <div class="wdget-menu">
+                                        <div class="wdget-title">
+                                            <h4>Camera:</h4>
+                                        </div>
+                                        <ul class="wdget-nav">
+                                            <li><a href="#">Brand1</a></li>
+                                            <li><a href="#">Brand2</a></li>
+                                            <li><a href="#">Brand3</a></li>
+                                            <li><a href="#">Brand4</a></li>
+                                            <li><a href="#">Brand4</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Wdget Menu End-->
+                                    <!--Wdget Menu Start-->
+                                    <div class="wdget-menu">
+                                        <div class="wdget-title">
+                                            <h4>Laptop:</h4>
+                                        </div>
+                                        <ul class="wdget-nav">
+                                            <li><a href="#">Brand1</a></li>
+                                            <li><a href="#">Brand2</a></li>
+                                            <li><a href="#">Brand3</a></li>
+                                            <li><a href="#">Brand4</a></li>
+                                            <li><a href="#">Brand5</a></li>
+                                            <li><a href="#">Brand6</a></li>
+                                            <li><a href="#">Brand7</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Wdget Menu End-->
+                                    <!--Wdget Menu Start-->
+                                    <div class="wdget-menu">
+                                        <div class="wdget-title">
+                                            <h4>Smartphone:</h4>
+                                        </div>
+                                        <ul class="wdget-nav">
+                                            <li><a href="#">Brand1</a></li>
+                                            <li><a href="#">Brand2</a></li>
+                                            <li><a href="#">Brand3</a></li>
+                                            <li><a href="#">Brand4</a></li>
+                                            <li><a href="#">Brand5</a></li>
+                                            <li><a href="#">Brand6</a></li>
+                                            <li><a href="#">Brand7</a></li>
+                                            <li><a href="#">Brand8</a></li>
+                                            <li><a href="#">Brand9</a></li>
+                                            <li><a href="#">Brand10</a></li>
+                                            <li><a href="#">Brand11</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Wdget Menu End-->
+                                </div>
+                                <div class="col-md-6">
+                                    <!--Wdget Menu Start-->
+                                    <div class="wdget-menu">
+                                        <div class="wdget-title">
+                                            <h4>Televisions:</h4>
+                                        </div>
+                                        <ul class="wdget-nav">
+                                            <li><a href="#">Brand1</a></li>
+                                            <li><a href="#">Brand2</a></li>
+                                            <li><a href="#">Brand3</a></li>
+                                            <li><a href="#">Brand4</a></li>
+                                            <li><a href="#">Brand5</a></li>
+                                            <li><a href="#">Brand6</a></li>
+                                            <li><a href="#">Bravia</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Wdget Menu End-->
+                                    <!--Wdget Menu Start-->
+                                    <div class="wdget-menu">
+                                        <div class="wdget-title">
+                                            <h4>Watches:</h4>
+                                        </div>
+                                        <ul class="wdget-nav">
+                                            <li><a href="#">Brand1</a></li>
+                                            <li><a href="shop.html">Brand7</a></li>
+                                            <li><a href="#">Brand3</a></li>
+                                            <li><a href="#">Brand4</a></li>
+                                            <li><a href="#">Brand5</a></li>
+                                            <li><a href="#">Brand6</a></li>
+                                            <li><a href="#">Brand7</a></li>
+                                            <li><a href="#">Brand8</a></li>
+                                            <li><a href="#">Brand9</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Wdget Menu End-->
+                                    <!--Wdget Menu Start-->
+                                    <div class="wdget-menu">
+                                        <div class="wdget-title">
+                                            <h4>Furniture:</h4>
+                                        </div>
+                                        <ul class="wdget-nav">
+                                            <li><a href="#">Brand1</a></li>
+                                            <li><a href="#">Livingroom</a></li>
+                                            <li><a href="#">badroom</a></li>
+                                            <li><a href="#">Sofa</a></li>
+                                            <li><a href="#">Chair</a></li>
+                                            <li><a href="#">Bed</a></li>
+                                            <li><a href="#">Desk</a></li>
+                                        </ul>
+                                    </div>
+                                    <!--Wdget Menu End-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--Wdget Area End-->
+                    </div>
+                </div>
+                <!--Footer Middel Area End-->
+                <!--Footer Bottom Area Start-->
+                <div class="footer-bottom-area">
+                    <div class="container">
+                        <div class="row">
+                            <!--Footer Left Content Start-->
+                            <div class="col-md-6 col-sm-6">
+                                <div class="copyright-text">
+                                    <p>Copyright © 2018 <a href="http://hastech.company/" target="_blank">Hastech</a>, All Rights Reserved.</p>
+                                </div>
+                            </div>
+                            <!--Footer Left Content End-->
+                            <!--Footer Right Content Start-->
+                            <div class="col-md-6 col-sm-6">
+                                <div class="payment-img text-right">
+                                    <a href="#"><img src="img/payment/payment.png" alt=""></a>
+                                </div>
+                            </div>
+                            <!--Footer Right Content End-->
+                        </div>
+                    </div>
+                </div>
+                <!--Footer Bottom Area End-->
+		    </div>
+		</footer>
+		<!--Footer Area End-->
+        <!--Modal Start-->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal Content Strat-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="modal-details">
+                   <div class="row">
+                       <!--Product Img Strat-->
+                       <div class="col-md-5 col-sm-5">
+                           <!--Product Tab Content Start-->
+                            <div class="tab-content">
+                                <div id="watch1" class="tab-pane fade in active">
+                                    <div class="modal-img img-full">
+                                        <img src="img/single-product/large/1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div id="watch2" class="tab-pane fade">
+                                    <div class="modal-img img-full">
+                                        <img src="img/single-product/large/2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div id="watch3" class="tab-pane fade">
+                                    <div class="modal-img img-full">
+                                        <img src="img/single-product/large/3.jpg" alt="">
+                                    </div>
+                                </div> 
+                                <div id="watch4" class="tab-pane fade">
+                                    <div class="modal-img img-full">
+                                        <img src="img/single-product/large/4.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div id="watch5" class="tab-pane fade">
+                                    <div class="modal-img img-full">
+                                        <img src="img/single-product/large/5.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div id="watch6" class="tab-pane fade">
+                                    <div class="modal-img img-full">
+                                        <img src="img/single-product/large/6.jpg" alt="">
+                                    </div>
+                                </div> 
+                            </div>
+                            <!--Product Tab Content End-->
+		                    <!--Single Product Tab Menu Start-->
+		                    <div class="modal-product-tab">
+		                        <ul class="modal-tab-menu-active">
+		                            <li class="active"><a data-toggle="tab" href="#watch1"><img src="img/product-thumb/1.jpg" alt=""></a></li>
+		                            <li><a data-toggle="tab" href="#watch2"><img src="img/product-thumb/3.jpg" alt=""></a></li>
+		                            <li><a data-toggle="tab" href="#watch3"><img src="img/product-thumb/2.jpg" alt=""></a></li>
+		                            <li><a data-toggle="tab" href="#watch4"><img src="img/product-thumb/4.jpg" alt=""></a></li>
+		                            <li><a data-toggle="tab" href="#watch5"><img src="img/product-thumb/5.jpg" alt=""></a></li>
+		                            <li><a data-toggle="tab" href="#watch6"><img src="img/product-thumb/6.jpg" alt=""></a></li>
+		                        </ul>
+		                    </div>
+		                    <!--Single Product Tab Menu Start-->
+                       </div> 
+                       <!--Product Img End-->
+                       <!-- Product Content Start-->
+                       <div class="col-md-7 col-sm-7">
+                           <div class="product-info">
+                               <h2>Natural passages</h2>
+                               <div class="product-price">
+                                   <span class="old-price">$74.00</span>
+                                   <span class="new-price">$69.00</span>
+                               </div>
+                               <a href="#" class="see-all">See all features</a>
+                               <div class="add-to-cart quantity">
+                                    <form class="add-quantity" action="#">
+                                         <div class="quantity modal-quantity">
+                                             <label>Quantity</label>
+                                             <input type="number">
+                                         </div>
+                                        <div class="add-to-link">
+                                            <button class="form-button" data-text="add to cart">add to cart</button>
+                                        </div>
+                                    </form>
+                               </div>
+                               <div class="cart-description">
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco,Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus.</p>
+                               </div>
+                               <div class="social-share">
+                                   <h3>Share this product</h3>
+                                   <ul class="socil-icon2">
+                                       <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                       <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                       <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                                       <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                       <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                       <!--Product Content End--> 
+                   </div> 
+                </div>
+              </div>
+            </div>
+            <!--Modal Content Strat-->
+          </div>
+        </div>
+        <!--Modal End-->
+	</div>
+
+
+
+    <!--All Js Here-->
+    
+	<!--Jquery 1.12.4-->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!--Imagesloaded-->
+	<script src="js/imagesloaded.pkgd.min.js"></script> 
+	<!--Isotope-->
+	<script src="js/isotope.pkgd.min.js"></script>       
+	<!--Ui js-->
+	<script src="js/jquery-ui.min.js"></script>       
+	<!--Countdown-->
+	<script src="js/jquery.countdown.min.js"></script>        
+	<!--Counterup-->
+	<script src="js/jquery.counterup.min.js"></script>       
+	<!--ScrollUp-->
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<!--Chosen js-->
+	<script src="js/chosen.jquery.js"></script>
+	<!--Meanmenu js-->
+	<script src="js/jquery.meanmenu.min.js"></script>
+	<!--Instafeed-->
+	<script src="js/instafeed.min.js"></script> 
+	<!--EasyZoom-->
+	<script src="js/easyzoom.min.js"></script> 
+	<!--Fancybox-->
+	<script src="js/jquery.fancybox.pack.js"></script>       
+	<!--Nivo Slider-->
+	<script src="js/jquery.nivo.slider.js"></script>
+	<!--Waypoints-->
+	<script src="js/waypoints.min.js"></script>
+	<!--Carousel-->
+	<script src="js/owl.carousel.min.js"></script>
+	<!--Slick-->
+	<script src="js/slick.min.js"></script>
+	<!--Wow-->
+	<script src="js/wow.min.js"></script>
+	<!--Bootstrap-->
+	<script src="js/bootstrap.min.js"></script>
+	<!--Plugins-->
+	<script src="js/plugins.js"></script>
+	<!--Main Js-->
+	<script src="js/main.js"></script>
+</body>
+</html>
